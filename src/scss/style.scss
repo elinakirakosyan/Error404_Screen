@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:wght@100;400&display=swap');
+body {
+    background: #1A202C;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.left{
+    display: flex;
+}
+.err404{
+    position: absolute;
+    width: 401px;
+    height: 166px;
+    left: 446px;
+    top: 424px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 144px;
+    line-height: 176px;
+    color: #FF40FF;
+}
+.err0{
+    position: absolute;
+    width: 203px;
+    height: 196px;
+    left: 537px;
+    top: 409px;
+}    
+.error{
+    position: absolute;
+    width: 401px;
+    height: 166px;
+    left: 458px;
+    top: 598px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 117px;
+    color: #FF40FF;
+}
+.oops{
+    position: absolute;
+    width: 770px;
+    height: 44px;
+    left: 273px;
+    top: 720px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #9069F9;
+}
+.btn{
+    position: absolute;
+    width: 207px;
+    height: 53px;
+    left: 549.5px;
+    top: 799px;
+    background: #805AD5;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.right{
+    display:flex;
+}
+
+.robot{
+    position: absolute;
+    width: 409px;
+    height: 335px;
+    left: 1175px;
+    top: 285px;
+}
+.cord{
+    position: absolute;
+    width: 880px;
+    height: 301px;
+    left: 815px;
+    top: 463px;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper{
+        position: absolute;
+        display: flex;
+        margin-left: 20%;
+        width: 360px;
+        height: 566px;
+        left: 0px;
+        top: 67px;
+        background: #1A202C;
+        /* lgoinpageandmobiledark */
+        box-shadow: 0px 0px 12px #303746;
+        border-radius: 36px;
+    }
+    .err404 {
+        width: 168px;
+        height: 78px;
+        left: 99px;
+        top: 76px;
+        font-size: 64px;
+        line-height: 78px;
+    }
+    .err0 {
+        width: 88px;
+        height: 118px;
+        left: 140px;
+        top: 55px;
+    }
+    .error{
+        width: 158px;
+        height: 51px;
+        left: 105px;
+        top: 156px;
+        font-size: 42px;
+        line-height: 51px;
+    }
+    .oops{
+        width: 300px;
+        height: 17px;
+        left: 36px;
+        top: 215px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .btn{
+        left: 81px;
+        top: 255px;
+        background: #A688E7;
+    }
+    .robot{
+        width: 139px;
+        height: 114px;
+        left: 215px;
+        top: 343px;
+    }
+    .cord{
+        width: 300px;
+        height: 103px;
+        left: 94px;
+        top: 406px;
+    }
+}
